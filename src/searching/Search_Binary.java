@@ -1,3 +1,5 @@
+package searching;
+
 public class Search_Binary {
     public static void main(String[] args) {
         int[] nums = {5, 7, 9, 11, 13};

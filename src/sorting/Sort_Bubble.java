@@ -12,7 +12,7 @@ public class Sort_Bubble {
         }
 
         for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size-1; j++) {
+            for (int j = 0; j < size-i-1; j++) {
                 if (nums[j] > nums[j+1]) {
                     temp = nums[j];
                     nums[j] = nums[j+1];
@@ -21,7 +21,6 @@ public class Sort_Bubble {
             }
         }
 
-        
         System.out.println();
         System.out.println("after sorting");
         for(int num: nums){
